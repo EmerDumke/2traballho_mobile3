@@ -1,0 +1,24 @@
+
+PUT http://localhost:3000/customer/1
+Content-Type: application/json
+
+{
+"name": "João",
+"email": "joao@exemplo.com",
+"phoneNumber": "123-456-7890"
+}
+####
+
+DELETE http://localhost:3000/car/1
+####
+
+PUT http://localhost:3000/car/1
+Content-Type: application/json
+
+{
+"make": "Ford",
+"model": "Fusion",
+"year": 2021,
+"customerId": 1
+}
+####
